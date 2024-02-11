@@ -9,7 +9,7 @@ function no_clicked(buttonId) {
   var currentNoHeight = parseFloat(window.getComputedStyle(noButton).height);
 
   if (buttonId === 'no') {
-      yesButton.style.fontSize = (currentYesFontSize + 2) + 'px';
+      yesButton.style.fontSize = (currentYesFontSize + 5) + 'px';
       yesButton.style.width = (currentYesWidth * 1.2) + 'px';
       yesButton.style.height = (currentYesHeight * 1.2) + 'px';
 
