@@ -1,0 +1,47 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: violet;
+    background-color: lavender;
+}
+h1 {
+    text-align: center;
+}
+.gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.buttons {
+    text-align: center;
+    display: block;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#yes, #no {border-radius: 12px; height: 50px; width: 80px;}
+
+#yes:hover{background-color: #3e8e41}
+#no:hover {background-color: red;}
+
+#yes:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#no:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.under_gif {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin-left: -1%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
